@@ -1,9 +1,8 @@
 import React from 'react'
-import {banners, category} from '../data/Data';
+import { category} from '../data/Data';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
-import { BiChevronRight,BiChevronLeft } from 'react-icons/bi';
 
 
 const Category = () => {

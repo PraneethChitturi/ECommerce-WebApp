@@ -1,5 +1,4 @@
 import React,{useState} from 'react'
-import Icon from '../components/Icon'
 import { Link } from 'react-router-dom'
 import logo from '../images/obsession_logo.png';
 import {navbar} from '../data/Data.js'

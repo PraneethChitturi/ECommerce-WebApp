@@ -1,9 +1,7 @@
-import React,{useRef, useState} from 'react'
-import {arriveItems, products} from '../data/Data';
-import { BiCart, BiChevronLeft, BiChevronRight } from 'react-icons/bi';
-import Modal from '../common/Modal';
+import React,{useRef} from 'react'
+import {arriveItems} from '../data/Data';
+import { BiChevronLeft, BiChevronRight } from 'react-icons/bi';
 import Heading from '../common/Heading';
-import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"

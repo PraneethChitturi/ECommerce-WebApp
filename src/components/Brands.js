@@ -1,13 +1,9 @@
-import React,{useRef, useState} from 'react'
-import {arriveItems, brands, products} from '../data/Data';
-import { BiCart, BiChevronLeft, BiChevronRight } from 'react-icons/bi';
-import Modal from '../common/Modal';
+import React from 'react'
+import { brands} from '../data/Data';
 import Heading from '../common/Heading';
-import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
-import bannerimg from "../images/obsessions_ecom/4.webp";
 
 const Brands = () => {
     var settings = {

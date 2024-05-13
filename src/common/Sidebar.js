@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { FaTimes } from 'react-icons/fa'
 import { useDispatch, useSelector } from 'react-redux'
 import { getCartTotal,removeItem } from '../redux/cartSlice'
@@ -8,10 +8,6 @@ const Sidebar = ({isSidebarOpen,closeSidebar}) => {
   const dispatch = useDispatch()
   const {data:cartProducts,totalAmount} = useSelector((state)=>state.cart)
 
-  const cartSelector = useSelector((state)=>state.cart)
-  useEffect(()=>{
-    dispatch(getCartTotal())
-  },[])
 
   const removeFromCart = (itemId)=>{
     dispatch(removeItem({id:itemId}))
